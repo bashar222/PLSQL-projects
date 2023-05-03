@@ -1,7 +1,7 @@
 # PLSQL-projects
 
 
-   ## Auto sequence project with trigger (project 1) : 
+   ## **Auto sequence project with trigger (project 1) :** 
 
    ### The Auto sequence project with trigger project is an Oracle PL/SQL procedure that generates sequence triggers for all tables in a given schema that have a primary key of data type NUMBER. The procedure utilizes dynamic SQL to create a sequence for each table and then creates a row-level BEFORE INSERT trigger for that table, which populates the primary key column with the next sequence value.
 
@@ -13,7 +13,7 @@
   
   ## -------------------------------------------------------------------------------------------------------------------------
   
-  ## installment paid project (project 2 ) : 
+  ## **installment paid project (project 2 ) :** 
   
   ### This project is a PL/SQL script for automating the insertion of installment payments into a database table called installments_paid. The script is made up of three parts: a function to calculate the number of installment payments for a given contract, a procedure to insert a new installment payment into the installments_paid table, and a main program that uses a cursor to loop through all contracts and insert the corresponding installment payments.
 
