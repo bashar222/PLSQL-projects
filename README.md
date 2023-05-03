@@ -1,7 +1,7 @@
 # PLSQL-projects
 
 
-   ## - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015` **Auto sequence project with trigger (project 1) :** 
+   ##  ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png)  **Auto sequence project with trigger (project 1) :** 
 
    ### The Auto sequence project with trigger project is an Oracle PL/SQL procedure that generates sequence triggers for all tables in a given schema that have a primary key of data type NUMBER. The procedure utilizes dynamic SQL to create a sequence for each table and then creates a row-level BEFORE INSERT trigger for that table, which populates the primary key column with the next sequence value.
 
