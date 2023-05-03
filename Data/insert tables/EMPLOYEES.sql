@@ -1,0 +1,674 @@
+SET DEFINE OFF;
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES)
+ Values
+   (300, 'bashar', 'hassan', 'bashar@gmail.com', '0100.89.343.68', 
+    TO_DATE('04/02/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9000, 0.15, 122, 
+    500, 'jhkjlkl;');
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID)
+ Values
+   (301, 'ahmed ', 'hasssan', 'ahamed@gmail.com', '011.23442.132.12', 
+    TO_DATE('04/02/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AC_MGR', 1, 0.15, 101, 
+    80);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (100, 'Steven', 'King', 'SKING', '515.123.4567', 
+    TO_DATE('06/17/2000 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AD_PRES', 24000, 0.25, 
+    90, 'employee no. 100 named Steven King takes salary = 24000 and works as AD_PRES in dept no. 90', 569699.8, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (101, 'Neena', 'Kochhar', 'NKOCHHAR', '515.123.4568', 
+    TO_DATE('09/21/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AD_VP', 17000, 0.25, 100, 
+    90, 'employee no. 101 named Neena Kochhar takes salary = 17000 and works as AD_VP in dept no. 90', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (102, 'Lex', 'De Haan', 'LDEHAAN', '515.123.4569', 
+    TO_DATE('01/13/2001 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AD_VP', 9000, 0.15, 100, 
+    90, 'employee no. 102 named Lex De Haan takes salary = 17000 and works as AD_VP in dept no. 90', 263838.91, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (103, 'Alexander', 'Hunold', 'AHUNOLD', '590.423.4567', 
+    TO_DATE('01/03/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 1, 0.2, 102, 
+    60, 'employee no. 103 named Alexander Hunold takes salary = 9000 and works as IT_PROG in dept no. 60', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (104, 'Bruce', 'Ernst', 'BERNST', '590.423.4568', 
+    TO_DATE('05/21/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 11000, 0.2, 103, 
+    60, 'employee no. 104 named Bruce Ernst takes salary = 6000 and works as IT_PROG in dept no. 60', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (105, 'David', 'Jack Austin', 'mohamed.hassan@gmail.com', '590.423.4569', 
+    TO_DATE('06/25/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 11000, 0.2, 103, 
+    60, 'employee no. 105 named David Jack Austin takes salary = 4800 and works as IT_PROG in dept no. 60', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (106, 'Valli', 'Pataballa', 'abdalluh.hassan@gmail.com', '590.423.4560', 
+    TO_DATE('02/05/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 11000, 0.2, 103, 
+    60, 'employee no. 106 named Valli Pataballa takes salary = 4800 and works as IT_PROG in dept no. 60', 1);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (107, 'Diana', 'Lorentz', 'DLORENTZ', '590.423.5567', 
+    TO_DATE('02/07/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 13310, 0.2, 103, 
+    60, 'employee no. 107 named Diana Lorentz takes salary = 4200 and works as IT_PROG in dept no. 60', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (109, 'Daniel', 'Faviet', 'DFAVIET', '515.124.4169', 
+    TO_DATE('08/16/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_ACCOUNT', 7700, 0.15, 108, 
+    100, 'employee no. 109 named Daniel Faviet takes salary = 9000 and works as FI_ACCOUNT in dept no. 100', 190503.53, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (111, 'Ismael', 'Sciarra', 'ISCIARRA', '515.124.4369', 
+    TO_DATE('09/30/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_ACCOUNT', 7800, 0.15, 108, 
+    100, 'employee no. 111 named Ismael Sciarra takes salary = 7700 and works as FI_ACCOUNT in dept no. 100', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (114, 'Den', 'Raphaely', 'DRAPHEAL', '515.127.4561', 
+    TO_DATE('04/02/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'IT_PROG', 6900, 0.1, 100, 
+    60, 'employee no. 114 named Den Raphaely takes salary = 11000 and works as PU_MAN in dept no. 30', 168151.27, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (116, 'Shelli', 'Baida', 'SBAIDA', '515.127.4563', 
+    TO_DATE('12/24/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PU_CLERK', 2900, 0.1, 114, 
+    30, 'employee no. 116 named Shelli Baida takes salary = 2900 and works as PU_CLERK in dept no. 30', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (121, 'Adam', 'Fripp', 'AFRIPP', '650.123.2234', 
+    TO_DATE('04/10/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_MAN', 8000, 0.15, 100, 
+    50, 'employee no. 121 named Adam Fripp takes salary = 8200 and works as ST_MAN in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (124, 'Kevin', 'Mourgos', 'KMOURGOS', '650.123.5234', 
+    TO_DATE('11/16/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_MAN', 5800, 0.1, 100, 
+    50, 'employee no. 124 named Kevin Mourgos takes salary = 5800 and works as ST_MAN in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (127, 'James', 'Landry', 'JLANDRY', '650.124.1334', 
+    TO_DATE('01/14/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2700, 0.1, 120, 
+    50, 'employee no. 127 named James Landry takes salary = 2400 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (129, 'Laura', 'Bissot', 'LBISSOT', '650.124.5234', 
+    TO_DATE('08/20/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2200, 0.1, 121, 
+    50, 'employee no. 129 named Laura Bissot takes salary = 3300 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (131, 'James', 'Marlow', 'JAMRLOW', '650.124.7234', 
+    TO_DATE('02/16/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2100, 0.1, 121, 
+    50, 'employee no. 131 named James Marlow takes salary = 2500 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (134, 'Michael', 'Rogers', 'MROGERS', '650.127.1834', 
+    TO_DATE('08/26/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2900, 0.1, 122, 
+    50, 'employee no. 134 named Michael Rogers takes salary = 2900 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (137, 'Renske', 'Ladwig', 'RLADWIG', '650.121.1234', 
+    TO_DATE('07/14/2003 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2200, 0.1, 123, 
+    50, 'employee no. 137 named Renske Ladwig takes salary = 3600 and works as ST_CLERK in dept no. 50', 52023.77, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (139, 'John', 'Seo', 'JSEO', '650.121.2019', 
+    TO_DATE('02/12/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 3200, 0.1, 123, 
+    50, 'employee no. 139 named John Seo takes salary = 2700 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (142, 'Curtis', 'Davies', 'CDAVIES', '650.121.2994', 
+    TO_DATE('01/29/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 3100, 0.1, 124, 
+    50, 'employee no. 142 named Curtis Davies takes salary = 3100 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (144, 'Peter', 'Vargas', 'PVARGAS', '650.121.2004', 
+    TO_DATE('07/09/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2500, 0.1, 124, 
+    50, 'employee no. 144 named Peter Vargas takes salary = 2500 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (147, 'Alberto', 'Errazuriz', 'AERRAZUR', '011.44.1344.429278', 
+    TO_DATE('03/10/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_MAN', 13500, 0.2, 100, 
+    80, 'employee no. 147 named Alberto Errazuriz takes salary = 12000 and works as SA_MAN in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (149, 'Eleni', 'Zlotkey', 'EZLOTKEY', '011.44.1344.429018', 
+    TO_DATE('01/29/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_MAN', 10000, 0.2, 100, 
+    80, 'employee no. 149 named Eleni Zlotkey takes salary = 10500 and works as SA_MAN in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (152, 'Peter', 'Hall', 'PHALL', '011.44.1344.478968', 
+    TO_DATE('08/20/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9500, 0.15, 145, 
+    80, 'employee no. 152 named Peter Hall takes salary = 9000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (154, 'Nanette', 'Cambrault', 'NCAMBRAU', '011.44.1344.987668', 
+    TO_DATE('12/09/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 8000, 0.15, 145, 
+    80, 'employee no. 154 named Nanette Cambrault takes salary = 7500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (156, 'Janette', 'King', 'JKING', '011.44.1345.429268', 
+    TO_DATE('01/30/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 7000, 0.15, 146, 
+    80, 'employee no. 156 named Janette King takes salary = 10000 and works as SA_REP in dept no. 80', 160968.89, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (159, 'Lindsey', 'Smith', 'LSMITH', '011.44.1345.729268', 
+    TO_DATE('03/10/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 8000, 0.15, 146, 
+    80, 'employee no. 159 named Lindsey Smith takes salary = 8000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (161, 'Sarath', 'Sewall', 'SSEWALL', '011.44.1345.529268', 
+    TO_DATE('11/03/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 7000, 0.15, 146, 
+    80, 'employee no. 161 named Sarath Sewall takes salary = 7000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (163, 'Danielle', 'Greene', 'DGREENE', '011.44.1346.229268', 
+    TO_DATE('03/19/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9500, 0.15, 147, 
+    80, 'employee no. 163 named Danielle Greene takes salary = 9500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (166, 'Sundar', 'Ande', 'SANDE', '011.44.1346.629268', 
+    TO_DATE('03/24/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 6800, 0.1, 147, 
+    80, 'employee no. 166 named Sundar Ande takes salary = 6400 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (168, 'Lisa', 'Ozer', 'LOZER', '011.44.1343.929268', 
+    TO_DATE('03/11/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 11500, 0.2, 148, 
+    80, 'employee no. 168 named Lisa Ozer takes salary = 11500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (171, 'William', 'Smith', 'WSMITH', '011.44.1343.629268', 
+    TO_DATE('02/23/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9600, 0.15, 148, 
+    80, 'employee no. 171 named William Smith takes salary = 7400 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (173, 'Sundita', 'Kumar', 'SKUMAR', '011.44.1343.329268', 
+    TO_DATE('04/21/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 7300, 0.15, 148, 
+    80, 'employee no. 173 named Sundita Kumar takes salary = 6100 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (175, 'Alyssa', 'Hutton', 'AHUTTON', '011.44.1644.429266', 
+    TO_DATE('03/19/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 11000, 0.2, 149, 
+    80, 'employee no. 175 named Alyssa Hutton takes salary = 8800 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (178, 'Kimberely', 'Grant', 'KGRANT', '011.44.1644.429263', 
+    TO_DATE('05/24/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 8400, 0.15, 149, 
+    90, 'employee no. 178 named Kimberely Grant takes salary = 7000 and works as SA_REP in dept no. ', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (180, 'Winston', 'Taylor', 'WTAYLOR', '650.507.9876', 
+    TO_DATE('01/24/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 6200, 0.1, 120, 
+    50, 'employee no. 180 named Winston Taylor takes salary = 3200 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (183, 'Girard', 'Geoni', 'GGEONI', '650.507.9879', 
+    TO_DATE('02/03/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3100, 0.1, 120, 
+    50, 'employee no. 183 named Girard Geoni takes salary = 2800 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (185, 'Alexis', 'Bull', 'ABULL', '650.509.2876', 
+    TO_DATE('02/20/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 4100, 0.1, 121, 
+    50, 'employee no. 185 named Alexis Bull takes salary = 4100 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (188, 'Kelly', 'Chung', 'KCHUNG', '650.505.1876', 
+    TO_DATE('06/14/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3000, 0.1, 122, 
+    50, 'employee no. 188 named Kelly Chung takes salary = 3800 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (190, 'Timothy', 'Gates', 'TGATES', '650.505.3876', 
+    TO_DATE('07/11/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3600, 0.1, 122, 
+    50, 'employee no. 190 named Timothy Gates takes salary = 2900 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (192, 'Sarah', 'Bell', 'SBELL', '650.501.1876', 
+    TO_DATE('02/04/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2500, 0.1, 123, 
+    50, 'employee no. 192 named Sarah Bell takes salary = 4000 and works as SH_CLERK in dept no. 50', 57448.57, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (195, 'Vance', 'Jones', 'VJONES', '650.501.4876', 
+    TO_DATE('03/17/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2800, 0.1, 123, 
+    50, 'employee no. 195 named Vance Jones takes salary = 2800 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (198, 'Donald', 'OConnell', 'DOCONNEL', '650.507.9833', 
+    TO_DATE('06/21/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3000, 0.1, 124, 
+    50, 'employee no. 198 named Donald OConnell takes salary = 2600 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (199, 'Douglas', 'Grant', 'DGRANT', '650.507.9844', 
+    TO_DATE('01/13/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2600, 0.1, 124, 
+    50, 'employee no. 199 named Douglas Grant takes salary = 2600 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (200, 'Jennifer', 'Whalen', 'JWHALEN', '515.123.4444', 
+    TO_DATE('09/17/2003 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AD_ASST', 2600, 0.1, 101, 
+    10, 'employee no. 200 named Jennifer Whalen takes salary = 4400 and works as AD_ASST in dept no. 10', 60937.48, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (201, 'Michael', 'Hartstein', 'MHARTSTE', '515.123.5555', 
+    TO_DATE('02/17/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'MK_MAN', 4400, 0.1, 100, 
+    20, 'employee no. 201 named Michael Hartstein takes salary = 13000 and works as MK_MAN in dept no. 20', 100924.96, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (202, 'Pat', 'Fay', 'PFAY', '603.123.6666', 
+    TO_DATE('08/17/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'MK_REP', 13000, 0.2, 201, 
+    20, 'employee no. 202 named Pat Fay takes salary = 6000 and works as MK_REP in dept no. 20', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (203, 'Susan', 'Mavris', 'SMAVRIS', '515.123.7777', 
+    TO_DATE('06/07/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'HR_REP', 6000, 0.1, 101, 
+    40, 'employee no. 203 named Susan Mavris takes salary = 6500 and works as HR_REP in dept no. 40', 149818.5, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (204, 'Hermann', 'Baer', 'HBAER', '515.123.8888', 
+    TO_DATE('06/07/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PR_REP', 6500, 0.1, 101, 
+    70, 'employee no. 204 named Hermann Baer takes salary = 10000 and works as PR_REP in dept no. 70', 162303.37, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (206, 'William', 'Gietz', 'WGIETZ', '515.123.8181', 
+    TO_DATE('06/07/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AC_ACCOUNT', 12008, 0.2, 205, 
+    110, 'employee no. 206 named William Gietz takes salary = 8300 and works as AC_ACCOUNT in dept no. 110', 299836.76, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (108, 'Nancy', 'Greenberg', 'NGREENBE', '515.124.4569', 
+    TO_DATE('08/17/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_MGR', 8300, 0.15, 101, 
+    100, 'employee no. 108 named Nancy Greenberg takes salary = 12008 and works as FI_MGR in dept no. 100', 205321.18, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (110, 'John', 'Chen', 'JCHEN', '515.124.4269', 
+    TO_DATE('09/28/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_ACCOUNT', 3100, 0.1, 108, 
+    100, 'employee no. 110 named John Chen takes salary = 8200 and works as FI_ACCOUNT in dept no. 100', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (112, 'Jose Manuel', 'Urman', 'JMURMAN', '515.124.4469', 
+    TO_DATE('03/07/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_ACCOUNT', 2800, 0.1, 108, 
+    100, 'employee no. 112 named Jose Manuel Urman takes salary = 7800 and works as FI_ACCOUNT in dept no. 100', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (113, 'Luis', 'Popp', 'LPOPP', '515.124.4567', 
+    TO_DATE('12/07/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'FI_ACCOUNT', 2500, 0.1, 108, 
+    100, 'employee no. 113 named Luis Popp takes salary = 6900 and works as FI_ACCOUNT in dept no. 100', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (115, 'Alexander', 'Khoo', 'AKHOO', '515.127.4562', 
+    TO_DATE('05/18/2003 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PU_CLERK', 8200, 0.15, 114, 
+    30, 'employee no. 115 named Alexander Khoo takes salary = 3100 and works as PU_CLERK in dept no. 30', 195440.98, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (117, 'Sigal', 'Tobias', 'STOBIAS', '515.127.4564', 
+    TO_DATE('07/24/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PU_CLERK', 6500, 0.1, 114, 
+    30, 'employee no. 117 named Sigal Tobias takes salary = 2800 and works as PU_CLERK in dept no. 30', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (118, 'Guy', 'Himuro', 'GHIMURO', '515.127.4565', 
+    TO_DATE('11/15/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PU_CLERK', 2400, 0.1, 114, 
+    30, 'employee no. 118 named Guy Himuro takes salary = 2600 and works as PU_CLERK in dept no. 30', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (120, 'Matthew', 'Weiss', 'MWEISS', '650.123.1234', 
+    TO_DATE('07/18/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_MAN', 3300, 0.1, 100, 
+    50, 'employee no. 120 named Matthew Weiss takes salary = 8000 and works as ST_MAN in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (122, 'Payam', 'Kaufling', 'PKAUFLIN', '650.123.3234', 
+    TO_DATE('05/01/2003 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_MAN', 2500, 0.1, 100, 
+    50, 'employee no. 122 named Payam Kaufling takes salary = 7900 and works as ST_MAN in dept no. 50', 59722.76, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (123, 'Shanta', 'Vollman', 'SVOLLMAN', '650.123.4234', 
+    TO_DATE('10/10/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_MAN', 3300, 0.1, 100, 
+    50, 'employee no. 123 named Shanta Vollman takes salary = 6500 and works as ST_MAN in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (125, 'Julia', 'Nayer', 'JNAYER', '650.124.1214', 
+    TO_DATE('07/16/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 3600, 0.1, 120, 
+    50, 'employee no. 125 named Julia Nayer takes salary = 3200 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (126, 'Irene', 'Mikkilineni', 'IMIKKILI', '650.124.1224', 
+    TO_DATE('09/28/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 2700, 0.1, 120, 
+    50, 'employee no. 126 named Irene Mikkilineni takes salary = 2700 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (128, 'Steven', 'Markle', 'SMARKLE', '650.124.1434', 
+    TO_DATE('03/08/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 3500, 0.1, 120, 
+    50, 'employee no. 128 named Steven Markle takes salary = 2200 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (130, 'Mozhe', 'Atkinson', 'MATKINSO', '650.124.6234', 
+    TO_DATE('10/30/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 14000, 0.2, 121, 
+    50, 'employee no. 130 named Mozhe Atkinson takes salary = 2800 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (132, 'TJ', 'Olson', 'TJOLSON', '650.124.8234', 
+    TO_DATE('04/10/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 12000, 0.2, 121, 
+    50, 'employee no. 132 named TJ Olson takes salary = 2100 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (133, 'Jason', 'Mallin', 'JMALLIN', '650.127.1934', 
+    TO_DATE('06/14/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 10500, 0.2, 122, 
+    50, 'employee no. 133 named Jason Mallin takes salary = 3300 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (135, 'Ki', 'Gee', 'KGEE', '650.127.1734', 
+    TO_DATE('12/12/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 9000, 0.15, 122, 
+    50, 'employee no. 135 named Ki Gee takes salary = 2400 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (136, 'Hazel', 'Philtanker', 'HPHILTAN', '650.127.1634', 
+    TO_DATE('02/06/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 10000, 0.2, 122, 
+    50, 'employee no. 136 named Hazel Philtanker takes salary = 2200 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (138, 'Stephen', 'Stiles', 'SSTILES', '650.121.2034', 
+    TO_DATE('10/26/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 9000, 0.15, 123, 
+    50, 'employee no. 138 named Stephen Stiles takes salary = 3200 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (140, 'Joshua', 'Patel', 'JPATEL', '650.121.1834', 
+    TO_DATE('04/06/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 7500, 0.15, 123, 
+    50, 'employee no. 140 named Joshua Patel takes salary = 2500 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (141, 'Trenna', 'Rajs', 'TRAJS', '650.121.8009', 
+    TO_DATE('10/17/2003 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 10500, 0.2, 124, 
+    50, 'employee no. 141 named Trenna Rajs takes salary = 3500 and works as ST_CLERK in dept no. 50', 245043.66, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (143, 'Randall', 'Matos', 'RMATOS', '650.121.2874', 
+    TO_DATE('03/15/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'ST_CLERK', 7200, 0.15, 124, 
+    50, 'employee no. 143 named Randall Matos takes salary = 2600 and works as ST_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (145, 'John', 'Russell', 'JRUSSEL', '011.44.1344.429268', 
+    TO_DATE('10/01/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_MAN', 10000, 0.2, 100, 
+    80, 'employee no. 145 named John Russell takes salary = 14000 and works as SA_MAN in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (146, 'Karen', 'Partners', 'KPARTNER', '011.44.1344.467268', 
+    TO_DATE('01/05/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_MAN', 7400, 0.15, 100, 
+    80, 'employee no. 146 named Karen Partners takes salary = 13500 and works as SA_MAN in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (148, 'Gerald', 'Cambrault', 'GCAMBRAU', '011.44.1344.619268', 
+    TO_DATE('10/15/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_MAN', 6100, 0.1, 100, 
+    80, 'employee no. 148 named Gerald Cambrault takes salary = 11000 and works as SA_MAN in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (151, 'David', 'Bernstein', 'DBERNSTE', '011.44.1344.345268', 
+    TO_DATE('03/24/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 3200, 0.1, 145, 
+    80, 'employee no. 151 named David Bernstein takes salary = 9500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (153, 'Christopher', 'Olsen', 'COLSEN', '011.44.1344.498718', 
+    TO_DATE('03/30/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 2500, 0.1, 145, 
+    80, 'employee no. 153 named Christopher Olsen takes salary = 8000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (155, 'Oliver', 'Tuvault', 'OTUVAULT', '011.44.1344.486508', 
+    TO_DATE('11/23/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 4200, 0.1, 145, 
+    80, 'employee no. 155 named Oliver Tuvault takes salary = 7000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (157, 'Patrick', 'Sully', 'PSULLY', '011.44.1345.929268', 
+    TO_DATE('03/04/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 3800, 0.1, 146, 
+    80, 'employee no. 157 named Patrick Sully takes salary = 9500 and works as SA_REP in dept no. 80', 86941.82, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (158, 'Allan', 'McEwen', 'AMCEWEN', '011.44.1345.829268', 
+    TO_DATE('08/01/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 2900, 0.1, 146, 
+    80, 'employee no. 158 named Allan McEwen takes salary = 9000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (160, 'Louise', 'Doran', 'LDORAN', '011.44.1345.629268', 
+    TO_DATE('12/15/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 4000, 0.1, 146, 
+    80, 'employee no. 160 named Louise Doran takes salary = 7500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (162, 'Clara', 'Vishney', 'CVISHNEY', '011.44.1346.129268', 
+    TO_DATE('11/11/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 3200, 0.1, 147, 
+    80, 'employee no. 162 named Clara Vishney takes salary = 10500 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (164, 'Mattea', 'Marvins', 'MMARVINS', '011.44.1346.329268', 
+    TO_DATE('01/24/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 17000, 0.25, 147, 
+    80, 'employee no. 164 named Mattea Marvins takes salary = 7200 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (165, 'David', 'Lee', 'DLEE', '011.44.1346.529268', 
+    TO_DATE('02/23/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 5808, 0.1, 147, 
+    80, 'employee no. 165 named David Lee takes salary = 6800 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (167, 'Amit', 'Banda', 'ABANDA', '011.44.1346.729268', 
+    TO_DATE('04/21/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 8200, 0.15, 147, 
+    80, 'employee no. 167 named Amit Banda takes salary = 6200 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (169, 'Harrison', 'Bloom', 'HBLOOM', '011.44.1343.829268', 
+    TO_DATE('03/23/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 11000, 0.2, 148, 
+    80, 'employee no. 169 named Harrison Bloom takes salary = 10000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (170, 'Tayler', 'Fox', 'TFOX', '011.44.1343.729268', 
+    TO_DATE('01/24/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 7900, 0.15, 148, 
+    80, 'employee no. 170 named Tayler Fox takes salary = 9600 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (172, 'Elizabeth', 'Bates', 'EBATES', '011.44.1343.529268', 
+    TO_DATE('03/24/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 2800, 0.1, 148, 
+    80, 'employee no. 172 named Elizabeth Bates takes salary = 7300 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (174, 'Ellen', 'Abel', 'EABEL', '011.44.1644.429267', 
+    TO_DATE('05/11/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 2500, 0.1, 149, 
+    80, 'employee no. 174 named Ellen Abel takes salary = 11000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (176, 'Jonathon', 'Taylor', 'JTAYLOR', '011.44.1644.429265', 
+    TO_DATE('03/24/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 11000, 0.2, 149, 
+    80, 'employee no. 176 named Jonathon Taylor takes salary = 8600 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (177, 'Jack', 'Livingston', 'JLIVINGS', '011.44.1644.429264', 
+    TO_DATE('04/23/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9500, 0.15, 149, 
+    80, 'employee no. 177 named Jack Livingston takes salary = 8400 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (179, 'Charles', 'Johnson', 'CJOHNSON', '011.44.1644.429262', 
+    TO_DATE('01/04/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 6400, 0.1, 149, 
+    80, 'employee no. 179 named Charles Johnson takes salary = 6200 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (181, 'Jean', 'Fleaur', 'JFLEAUR', '650.507.9877', 
+    TO_DATE('02/23/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 8600, 0.15, 120, 
+    50, 'employee no. 181 named Jean Fleaur takes salary = 3100 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (182, 'Martha', 'Sullivan', 'MSULLIVA', '650.507.9878', 
+    TO_DATE('06/21/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2800, 0.1, 120, 
+    50, 'employee no. 182 named Martha Sullivan takes salary = 2500 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (184, 'Nandita', 'Sarchand', 'NSARCHAN', '650.509.1876', 
+    TO_DATE('01/27/2004 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3900, 0.1, 121, 
+    50, 'employee no. 184 named Nandita Sarchand takes salary = 4200 and works as SH_CLERK in dept no. 50', 89720.41, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (186, 'Julia', 'Dellinger', 'JDELLING', '650.509.3876', 
+    TO_DATE('06/24/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3200, 0.1, 121, 
+    50, 'employee no. 186 named Julia Dellinger takes salary = 3400 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (187, 'Anthony', 'Cabrio', 'ACABRIO', '650.509.4876', 
+    TO_DATE('02/07/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2400, 0.1, 121, 
+    50, 'employee no. 187 named Anthony Cabrio takes salary = 3000 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (189, 'Jennifer', 'Dilly', 'JDILLY', '650.505.2876', 
+    TO_DATE('08/13/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 2600, 0.1, 122, 
+    50, 'employee no. 189 named Jennifer Dilly takes salary = 3600 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (191, 'Randall', 'Perkins', 'RPERKINS', '650.505.4876', 
+    TO_DATE('12/19/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 7500, 0.15, 122, 
+    50, 'employee no. 191 named Randall Perkins takes salary = 2500 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (193, 'Britney', 'Everett', 'BEVERETT', '650.501.2876', 
+    TO_DATE('03/03/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 6200, 0.1, 123, 
+    50, 'employee no. 193 named Britney Everett takes salary = 3900 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (194, 'Samuel', 'McCain', 'SMCCAIN', '650.501.3876', 
+    TO_DATE('07/01/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 7000, 0.15, 123, 
+    50, 'employee no. 194 named Samuel McCain takes salary = 3200 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (196, 'Alana', 'Walsh', 'AWALSH', '650.507.9811', 
+    TO_DATE('04/24/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3400, 0.1, 124, 
+    50, 'employee no. 196 named Alana Walsh takes salary = 3100 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (197, 'Kevin', 'Feeney', 'KFEENEY', '650.507.9822', 
+    TO_DATE('05/23/2006 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SH_CLERK', 3100, 0.1, 124, 
+    50, 'employee no. 197 named Kevin Feeney takes salary = 3000 and works as SH_CLERK in dept no. 50', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED_BONUS, RETIRED)
+ Values
+   (205, 'Shelley', 'Higgins', 'SHIGGINS', '515.123.8080', 
+    TO_DATE('06/07/2002 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AC_MGR', 10000, 0.2, 101, 
+    110, 'employee no. 205 named Shelley Higgins takes salary = 12008 and works as AC_MGR in dept no. 110', 249697.5, 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (119, 'Karen', 'Colmenares', 'KCOLMENA', '515.127.4566', 
+    TO_DATE('08/10/2007 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'PU_CLERK', 2600, 0.1, 114, 
+    30, 'employee no. 119 named Karen Colmenares takes salary = 2500 and works as PU_CLERK in dept no. 30', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_NOTES, RETIRED)
+ Values
+   (150, 'Peter', 'Tucker', 'PTUCKER', '011.44.1344.129268', 
+    TO_DATE('01/30/2005 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 8800, 0.15, 145, 
+    80, 'employee no. 150 named Peter Tucker takes salary = 10000 and works as SA_REP in dept no. 80', 0);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID)
+ Values
+   (302, 'mohamed', 'hhh', 'bashar', '012923', 
+    TO_DATE('04/07/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9000, 0.1, 145, 
+    80);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID)
+ Values
+   (305, 'abdallah', 'mah', 'mah', '2352341', 
+    TO_DATE('04/07/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9000, 0.1, 145, 
+    80);
+Insert into HR.EMPLOYEES
+   (EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID)
+ Values
+   (307, 'nagy', 'nag', 'nag', '2376423', 
+    TO_DATE('04/07/2023 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SA_REP', 9000, 0.1, 145, 
+    80);
+COMMIT;
