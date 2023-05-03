@@ -13,7 +13,7 @@
   
   ## -------------------------------------------------------------------------------------------------------------------------
   
-  ## - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **installment paid project (project 2 ) :** 
+  ## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **installment paid project (project 2 ) :** 
   
   ### This project is a PL/SQL script for automating the insertion of installment payments into a database table called installments_paid. The script is made up of three parts: a function to calculate the number of installment payments for a given contract, a procedure to insert a new installment payment into the installments_paid table, and a main program that uses a cursor to loop through all contracts and insert the corresponding installment payments.
 
